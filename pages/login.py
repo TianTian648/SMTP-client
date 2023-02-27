@@ -38,7 +38,7 @@ def show():
              var = tkinter.StringVar()
              var.set("1若点击登录后无响应，表明smtp输入非法，请重新输入！\n2若点击登录后验证失败，表明授权码和、箱号和smtp服务器三者不匹配！"
                      "\n3如果您不知道如何获取smtp授权码，请参考http://t.csdn.cn/MOLzK"
-                     "\n4示例：1164567053@qq.com,smtp.qq.com,szvjtqmnmtohgiji,随后您可以用他来给您的QQ邮箱发送消息，当然也可以使用其他邮箱，但无法保障邮件能被收到。"        )
+                     "\n4示例：@qq.com,smtp.qq.com,******i,随后您可以用他来给您的QQ邮箱发送消息，当然也可以使用其他邮箱，但无法保障邮件能被收到。"        )
              message = tkinter.Message(subwindow, width=400, textvariable=var)
              message.place(x=20, y=50)
     # 退出的函数
